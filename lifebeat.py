@@ -55,7 +55,6 @@ for col, (title, desc, active) in zip([c1, c2, c3, c4], steps):
     col.markdown(f"<div style='background:{bg}; padding:15px; border-radius:10px; text-align:center;'><b>{title}</b><br><small>{desc}</small></div>", unsafe_allow_html=True)
 
 st.write("")
-
 # Main Layout
 left_col, right_col = st.columns([2, 1])
 
